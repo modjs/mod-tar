@@ -1,0 +1,35 @@
+{
+    "name": "mod_tar",
+    "description": "Create a tarball",
+    "version": "0.1.0",
+    "homepage": "https://github.com/modjs/tar",
+    "author": {
+        "name": "yuanyan",
+        "url": "http://madscript.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/modjs/tar.git"
+    },
+    "bugs": {
+        "url": "https://github.com/modjs/tar/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": ""
+        }
+    ],
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "dependencies": {
+        "tar": "~0.1.13",
+        "fstream-ignore": "~0.0.5",
+        "fstream": "~0.1.18",
+        "minimatch": "~0.2.9"
+    },
+    "devDependencies": {
+    },
+    "keywords": []
+}
