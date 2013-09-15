@@ -1,0 +1,14 @@
+// A sample Modfile
+// More info at https://github.com/modulejs/modjs/
+
+module.exports = {
+    plugins: {
+        "tar": "../index.js"
+    },
+    tasks: {
+        "tar": {
+            src: "./foo",
+            dest: "foo.tar.gz"
+        }
+    }
+};

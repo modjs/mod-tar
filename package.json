@@ -1,7 +1,7 @@
 {
-    "name": "mod_tar",
+    "name": "mod-tar",
     "description": "Create a tarball",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/modjs/tar",
     "author": {
         "name": "yuanyan",
