@@ -7,8 +7,18 @@ module.exports = {
     },
     tasks: {
         "tar": {
-            src: "./foo",
-            dest: "foo.tar.gz"
+            pack: {
+                src: "./foo",
+                dest: "foo.tar.gz"
+            },
+            unpack: {
+                action: "extract",
+                src: "foo.tar.gz",
+                dest: "./bar"
+            }
         }
+    },
+    targets: {
+        dist: "tar:pack tar:unpack"
     }
 };

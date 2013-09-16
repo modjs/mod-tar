@@ -1,8 +1,8 @@
 {
     "name": "mod-tar",
     "description": "Create a tarball",
-    "version": "0.1.1",
-    "homepage": "https://github.com/modjs/tar",
+    "version": "0.1.2",
+    "homepage": "https://github.com/modjs/mod-tar",
     "author": {
         "name": "yuanyan",
         "url": "http://madscript.com"
